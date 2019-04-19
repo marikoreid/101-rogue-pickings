@@ -1,0 +1,154 @@
+@font-face {
+font-family: 'Wisdom Script Regular';
+font-style: normal;
+font-weight: normal;
+src: url('../fonts/Wisdom Script AJ.woff') format('woff');
+}
+
+/***** BASE *****/
+body {
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  margin: auto;
+  text-align: left;
+}
+
+li, ul {
+  list-style: none;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.third-width {
+  float: left;
+  width: 33%;
+}
+
+/***** HEADER *****/
+
+h1 {
+  font-size: 32px;
+  padding: 0px 21px;
+}
+
+h1 #rogue {
+  color: #77a466;
+}
+
+header li, ul {
+  display: inline;
+}
+
+nav {
+  float: right;
+  font-weight: bold;
+  margin-top: -50px;
+  text-transform: uppercase;
+}
+
+nav a {
+  color: #77a466;
+  padding: 0 14px;
+  text-decoration: none;
+}
+
+/***** MAIN *****/
+
+main {
+  clear: both;
+  padding: 0 21px;
+}
+
+#hero {
+  border-top: 3px solid #77a466;
+  border-bottom: 3px solid #77a466;
+  margin: 0 21px;
+}
+
+/***** ABOUT *****/
+
+#about {
+  border-bottom: 1px solid #77a466;
+}
+
+#about h2 {
+  font-size: 18px;
+  color: #77a466;
+  text-transform: uppercase;
+}
+
+#about p {
+  font-size: 16px;
+  line-height: 25px;
+  margin: 40px 0;
+  padding-right: 40px;
+}
+
+/***** THIRDS *****/
+
+h3 {
+  font-size: 12px;
+  line-height: 25px;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+
+#thirds {
+}
+
+#menu, #reviews, #contact {
+  border-top: none;
+  height: auto;
+  padding: 30px 0;
+}
+
+#menu {
+  border-left: none;
+}
+
+#reviews {
+  border-left: 1px solid #77a466;
+  border-right: 1px solid #77a466;
+}
+
+#menu li {
+  color: #77a466;
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 20px;
+}
+
+#reviews, #contact {
+  line-height: 25px;
+  padding-left: 21px;
+  padding-right: 30px;
+}
+
+#contact {
+  border-right: none;
+}
+
+/**** FOOTER ****/
+
+footer {
+  margin: 0 auto;
+  padding: 0 21px;
+}
+
+footer p {
+  border-top: 1px solid #77a466;
+  clear: both;
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#fresh {
+  font-family: 'Wisdom Script Regular', cursive;
+  color: #77a466;
+  text-transform: lowercase;
+}
